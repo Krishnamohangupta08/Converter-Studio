@@ -1,10 +1,10 @@
 # FontShift Studio
-
+![Product Image](Product.jpg)
 **FontShift Studio** is a desktop batch-conversion utility built with PyQt6. Despite the name, it has grown into three tools in one app:
 
 - **Font Studio** — real outline-level font format conversion (not just file renaming)
 - **PDF Studio** — PDF unlocking (password removal) and compression
-- **Image Studio** — batch image format conversion
+- **Image Studio** — batch imag/e format conversion
 
 All heavy lifting (font/PDF/image processing) lives in `engine.py`, a pure-Python module with no GUI dependencies. The GUI itself lives in `app.py`.
 
